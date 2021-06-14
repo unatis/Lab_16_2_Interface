@@ -15,6 +15,11 @@ public class Main {
         pig.Walk();
 
         pig.PigMethod();
+        
+        //pig.Hello = "";
+        //Animal animal = new Animal();
+        Animal animal = pig;
+        animal.animalSound();
 
     }
 
